@@ -1,5 +1,6 @@
 # Customer-_-Churn-Analysis
 CUSTOMER CHURN ANALYSIS DASHBOARD USING POWER BI
+
 *PROJECT OVERVIEW
 This project focuses on analyzing customer churn data using Microsoft Power BI.
 The dashboard provides interactive visual insights into customer behavior, churn patterns, contract types, payment methods, customer satisfaction, support calls, and revenue-related metrics.
