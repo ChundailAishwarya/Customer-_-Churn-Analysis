@@ -1,11 +1,14 @@
 Customer Churn Analysis Dashboard – Power BI
 📌 Project Overview
+
 This project focuses on analyzing customer churn data using Microsoft Power BI.
 The dashboard provides interactive visual insights into customer behavior, churn trends, payment methods, customer satisfaction, support calls, tenure, and service usage.
 The main objective of this project is to help businesses identify the major factors contributing to customer churn and support data-driven decision-making.
 
 📂 Dataset Information
+
 The dataset contains customer-related information such as:
+
 •Customer ID
 •Gender
 •Age Group
@@ -21,14 +24,17 @@ The dataset contains customer-related information such as:
 
 🛠 Tools & Technologies Used
 Microsoft Power BI
+
 Power Query
 DAX (Data Analysis Expressions)
+
 •Microsoft Power BI
 •Power Query
 •DAX (Data Analysis Expressions) 
 
 📊 Dashboard Features
 ✅ Visualizations Created
+
 •Table Visual
 •Displays all customer details including:
 •Customer ID
@@ -41,6 +47,7 @@ DAX (Data Analysis Expressions)
 •Churn Status
 
 1)KPI Cards
+
 The dashboard contains KPI cards for:
 •Total Customers
 •Churn Customers
@@ -48,6 +55,7 @@ The dashboard contains KPI cards for:
 •Churn Rate %
 
 2)Charts & Visuals
+
  Pie Chart
 •Churn Status (Yes / No)
  Bar Chart
@@ -58,6 +66,7 @@ The dashboard contains KPI cards for:
 •Tenure vs Total Charges
 
 3)Slicers Added
+
 Interactive slicers were created for:
 •Gender
 •Contract Type
@@ -66,23 +75,31 @@ These slicers allow dynamic filtering across all dashboard visuals.
 
 
 📈 Business Analysis Performed
+
 🔹 Payment Method with Highest Churn:
 Analyzed which payment method contributes to the highest customer churn.
+
 🔹 Support Calls vs Churn:
 Studied whether customers making more support calls are more likely to churn.
+
 🔹 Satisfaction Score vs Churn:
 Analyzed how customer satisfaction impacts churn behavior.
+
 🔹 Average Tenure of Churned Customers:
 Calculated the average duration customers stay before churning.
+
 🔹 Highest Monthly Charge:
 Identified the maximum monthly charge among all customers.
+
 🔹 Lowest Satisfaction Score:
 Identified the minimum customer satisfaction score.
+
 🔹 Age Group with Highest Churn:
 Analyzed which customer age category has the highest churn percentage.
 
 
 🧮 DAX Measures Used
+
 *Total Customers:
      Total Customers = COUNT(CustomerChurn[CustomerID])
 
@@ -103,6 +120,7 @@ AVERAGE(CustomerChurn[MonthlyCharges])
 
 
 📌 Key Insights
+
 •Customers with month-to-month contracts showed higher churn rates.
 •Certain payment methods experienced significantly higher churn.
 •Lower satisfaction scores were strongly associated with churned customers.
@@ -111,7 +129,9 @@ AVERAGE(CustomerChurn[MonthlyCharges])
 
 
 🎯 Project Outcome
+
 The interactive dashboard enables businesses to:
+
 •Monitor customer churn trends
 •Understand customer behavior
 •Improve customer retention strategies
@@ -120,6 +140,7 @@ The interactive dashboard enables businesses to:
 
 
 🚀 How to Use
+
 1)Download the .pbix file.
 2)Open it using Microsoft Power BI Desktop.
 3)Refresh the dataset if needed.
@@ -127,6 +148,7 @@ The interactive dashboard enables businesses to:
 
 
 📁 Project Structure
+
   Customer-Churn-Analysis/
 │
 ├── Customer_Churn_Dashboard.pdf
@@ -136,7 +158,9 @@ The interactive dashboard enables businesses to:
 
 
 📚 Learning Outcomes
+
 Through this project, I learned:
+
 •Data cleaning and transformation in Power BI
 •Creating interactive dashboards
 •Writing DAX measures
@@ -145,6 +169,7 @@ Through this project, I learned:
 
 
 ⭐ Conclusion
+
 This Power BI Customer Churn Analysis Dashboard provides meaningful insights into customer retention and churn behavior.
 The project demonstrates how business intelligence tools can transform raw data into actionable insights for organizations.
 
