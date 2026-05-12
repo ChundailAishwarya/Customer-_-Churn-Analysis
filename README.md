@@ -10,16 +10,27 @@ The main objective of this project is to help businesses identify the major fact
 The dataset contains customer-related information such as:
 
 •Customer ID
+
 •Gender
+
 •Age Group
+
 •Contract Type
+
 •Internet Service
+
 •Monthly Charges
+
 •Total Charges
+
 •Tenure
+
 •Payment Method
+
 •Support Calls
+
 •Satisfaction Score
+
 •Churn Status
 
 🛠 Tools & Technologies Used
@@ -29,48 +40,75 @@ Power Query
 DAX (Data Analysis Expressions)
 
 •Microsoft Power BI
+
 •Power Query
+
 •DAX (Data Analysis Expressions) 
+
 
 📊 Dashboard Features
 ✅ Visualizations Created
 
-•Table Visual
-•Displays all customer details including:
+Table Visual
+
+Displays all customer details including:
+
 •Customer ID
+
 •Gender
+
 •Contract Type
+
 •Internet Service
+
 •Monthly Charges
+
 •Total Charges
+
 •Tenure
+
 •Churn Status
+
 
 1)KPI Cards
 
 The dashboard contains KPI cards for:
 •Total Customers
+
 •Churn Customers
+
 •Average Monthly Charges
+
 •Churn Rate %
+
 
 2)Charts & Visuals
 
  Pie Chart
-•Churn Status (Yes / No)
- Bar Chart
-•Churn by Contract Type
+
+    •Churn Status (Yes / No)
+
+
+Bar Chart
+
+    •Churn by Contract Type
  Column Chart
-•Internet Service vs Total Customers
+
+    •Internet Service vs Total Customers
+
  Line Chart
-•Tenure vs Total Charges
+
+    •Tenure vs Total Charges
 
 3)Slicers Added
 
 Interactive slicers were created for:
 •Gender
+
 •Contract Type
+
 •Internet Service
+
 These slicers allow dynamic filtering across all dashboard visuals.
 
 
@@ -122,10 +160,15 @@ AVERAGE(CustomerChurn[MonthlyCharges])
 📌 Key Insights
 
 •Customers with month-to-month contracts showed higher churn rates.
+
 •Certain payment methods experienced significantly higher churn.
+
 •Lower satisfaction scores were strongly associated with churned customers.
+
 •Customers with frequent support calls had a greater tendency to churn.
+
 •Specific age groups showed higher churn percentages compared to others.
+
 
 
 🎯 Project Outcome
@@ -133,18 +176,26 @@ AVERAGE(CustomerChurn[MonthlyCharges])
 The interactive dashboard enables businesses to:
 
 •Monitor customer churn trends
+
 •Understand customer behavior
+
 •Improve customer retention strategies
+
 •Identify high-risk customer segments
+
 •Make data-driven business decisions
 
 
 🚀 How to Use
 
 1)Download the .pbix file.
+
 2)Open it using Microsoft Power BI Desktop.
+
 3)Refresh the dataset if needed.
+
 4)Use slicers to interact with dashboard visuals.
+
 
 
 📁 Project Structure
@@ -162,9 +213,13 @@ The interactive dashboard enables businesses to:
 Through this project, I learned:
 
 •Data cleaning and transformation in Power BI
+
 •Creating interactive dashboards
+
 •Writing DAX measures
+
 •Performing customer churn analysis
+
 •Building business intelligence reports
 
 
