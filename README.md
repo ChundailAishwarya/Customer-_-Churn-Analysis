@@ -1,6 +1,6 @@
 Customer Churn Analysis Dashboard – Power BI
 <img width="997" height="552" alt="Screenshot 2026-05-14 202848" src="https://github.com/user-attachments/assets/782e38df-76c1-4aa0-a204-031b70a3e41e" />
-Customer Churn Analysis – Power BI Dashboard
+
 
 📌 Project Overview
 
@@ -250,16 +250,13 @@ Customer data tables
 
 🚀 How to Use
 
-1. Open the .pbix file in Power BI Desktop.
+1. Use slicers to filter data dynamically.
 
 
-2. Use slicers to filter data dynamically.
+2. Analyze customer churn trends and patterns.
 
 
-3. Analyze customer churn trends and patterns.
-
-
-4. Generate insights for business decision-making.
+3. Generate insights for business decision-making.
 
 
 
@@ -284,16 +281,6 @@ Aishwarya
 
 
 ---
-
-📎 GitHub Repository Structure
-
-Customer-Churn-Analysis/
-│
-├── Dataset/
-├── PowerBI Dashboard/
-├── Screenshots/
-├── README.md
-└── Customer_Churn_Analysis.pbix
 
 
 
