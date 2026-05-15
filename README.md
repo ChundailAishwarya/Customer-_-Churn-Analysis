@@ -2,7 +2,7 @@ Customer Churn Analysis Dashboard – Power BI
 <img width="997" height="552" alt="Screenshot 2026-05-14 202848" src="https://github.com/user-attachments/assets/782e38df-76c1-4aa0-a204-031b70a3e41e" />
 
 
-📌 Project Overview
+📌 PROJECT OVERVIEW 
 
 This project focuses on analyzing customer churn data using Microsoft Power BI.
 The dashboard helps identify customer behavior patterns, churn trends, payment preferences, contract types, and internet service usage.
@@ -12,7 +12,7 @@ The analysis provides business insights that can help organizations reduce custo
 
 ---
 
-🎯 Objectives
+🎯 OBJECTIVES 
 
 Analyze customer churn patterns.
 
@@ -30,7 +30,7 @@ Create interactive visuals and slicers for dynamic analysis.
 
 ---
 
-🛠 Tools & Technologies Used
+🛠 TOOLS AND TECHNOLOGIES 
 
 Microsoft Power BI
 
@@ -44,7 +44,7 @@ Data Visualization Techniques
 
 ---
 
-📂 Dataset Information
+📂 DATASET FEATURES 
 
 The dataset contains customer-related information such as:
 
@@ -66,7 +66,7 @@ SupportCalls	Number of support calls
 
 ---
 
-📥 Importing Dataset into Microsoft Power BI
+📥 IMPORTING DATASET INTO MICROSOFT POWER BI
 
 Step 1: Open Power BI Desktop
 
@@ -212,7 +212,7 @@ Average Monthly Charges
 
 ---
 
-📈 Key Insights
+📈 KEY INSIGHTS 
 
 Customers with monthly contracts show higher churn rates.
 
@@ -228,7 +228,7 @@ Support calls may indicate customer dissatisfaction leading to churn.
 
 ---
 
-📷 Dashboard Preview
+📷 DASHBOARD PREVIEW
 
 The dashboard contains:
 
@@ -248,7 +248,7 @@ Customer data tables
 
 ---
 
-🚀 How to Use
+🚀 HOW TO USE
 
 1. Use slicers to filter data dynamically.
 
@@ -263,7 +263,7 @@ Customer data tables
 
 ---
 
-📌 Future Improvements
+📌 FUTURE IMPROVEMENTS
 
 Add predictive churn analysis using Machine Learning.
 
@@ -275,7 +275,7 @@ Add advanced DAX measures and forecasting visuals.
 
 ---
 
-👩‍💻 Author
+👩‍💻 AUTHOR 
 
 Aishwarya
 
