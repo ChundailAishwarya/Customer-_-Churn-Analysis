@@ -1,238 +1,299 @@
 Customer Churn Analysis Dashboard – Power BI
 <img width="997" height="552" alt="Screenshot 2026-05-14 202848" src="https://github.com/user-attachments/assets/782e38df-76c1-4aa0-a204-031b70a3e41e" />
-
-
+Customer Churn Analysis – Power BI Dashboard
 
 📌 Project Overview
 
 This project focuses on analyzing customer churn data using Microsoft Power BI.
-The dashboard provides interactive visual insights into customer behavior, churn trends, payment methods, customer satisfaction, support calls, tenure, and service usage.
-The main objective of this project is to help businesses identify the major factors contributing to customer churn and support data-driven decision-making.
+The dashboard helps identify customer behavior patterns, churn trends, payment preferences, contract types, and internet service usage.
+
+The analysis provides business insights that can help organizations reduce customer churn and improve customer retention strategies.
+
+
+---
+
+🎯 Objectives
+
+Analyze customer churn patterns.
+
+Identify which contract types have higher churn rates.
+
+Understand customer distribution by internet service and payment methods.
+
+Compare churn based on gender and customer age.
+
+Monitor total charges and tenure relationship.
+
+Create interactive visuals and slicers for dynamic analysis.
+
+
+
+---
+
+🛠 Tools & Technologies Used
+
+Microsoft Power BI
+
+Power Query
+
+DAX (Data Analysis Expressions)
+
+Data Visualization Techniques
+
+
+
+---
 
 📂 Dataset Information
 
 The dataset contains customer-related information such as:
 
-•Customer ID
+Column Name	Description
 
-•Gender
+CustomerID	Unique ID for each customer
+ContractType	Monthly / Yearly / Half-Yearly contracts
+Churn	Indicates whether customer left or stayed
+Age	Customer age
+Gender	Male / Female
+InternetService	DSL / Fiber
+PaymentMethod	Cash, UPI, Credit Card, Debit Card
+Tenure	Customer subscription duration
+TotalCharges	Total amount charged
+MonthlyCharges	Monthly bill amount
+SupportCalls	Number of support calls
 
-•Age Group
 
-•Contract Type
 
-•Internet Service
+---
 
-•Monthly Charges
+📥 Importing Dataset into Microsoft Power BI
 
-•Total Charges
+Step 1: Open Power BI Desktop
 
-•Tenure
+Launch Microsoft Power BI Desktop.
 
-•Payment Method
+Step 2: Load Dataset
 
-•Support Calls
+1. Click Home → Get Data
 
-•Satisfaction Score
 
-•Churn Status
+2. Select the file type:
 
-🛠 Tools & Technologies Used
-Microsoft Power BI
+Excel
 
-Power Query
-DAX (Data Analysis Expressions)
+CSV
 
-•Microsoft Power BI
+SQL Database (if applicable)
 
-•Power Query
 
-•DAX (Data Analysis Expressions) 
 
+3. Browse and select the dataset file.
+
+
+4. Click Load.
+
+
+
+Step 3: Transform Data (Optional)
+
+Use Power Query Editor to:
+
+Remove null values
+
+Rename columns
+
+Change data types
+
+Clean unnecessary data
+
+
+Then click: Close & Apply
+
+
+---
 
 📊 Dashboard Features
-✅ Visualizations Created
 
-Table Visual
+1. Customer Details Table
 
-Displays all customer details including:
+Displays:
 
-•Customer ID
+CustomerID
 
-•Gender
+ContractType
 
-•Contract Type
+Churn Status
 
-•Internet Service
+Age
 
-•Monthly Charges
-
-•Total Charges
-
-•Tenure
-
-•Churn Status
+Gender
 
 
-1)KPI Cards
+2. Count of Churn by Contract Type
 
-The dashboard contains KPI cards for:
-•Total Customers
+Bar chart showing churn distribution across:
 
-•Churn Customers
+Monthly
 
-•Average Monthly Charges
+Yearly
 
-•Churn Rate %
-
-
-2)Charts & Visuals
-
- Pie Chart
-
-    •Churn Status (Yes / No)
+Half-Yearly contracts
 
 
-Bar Chart
+3. Interactive Slicers
 
-    •Churn by Contract Type
- Column Chart
+Used for filtering dashboard data dynamically:
 
-    •Internet Service vs Total Customers
+Internet Service
 
- Line Chart
+Contract Type
 
-    •Tenure vs Total Charges
-
-3)Slicers Added
-
-Interactive slicers were created for:
-•Gender
-
-•Contract Type
-
-•Internet Service
-
-These slicers allow dynamic filtering across all dashboard visuals.
+Gender
 
 
-📈 Business Analysis Performed
+4. Total Charges by Tenure
 
-🔹 Payment Method with Highest Churn:
-Analyzed which payment method contributes to the highest customer churn.
+Line chart representing:
 
-🔹 Support Calls vs Churn:
-Studied whether customers making more support calls are more likely to churn.
+Customer tenure
 
-🔹 Satisfaction Score vs Churn:
-Analyzed how customer satisfaction impacts churn behavior.
-
-🔹 Average Tenure of Churned Customers:
-Calculated the average duration customers stay before churning.
-
-🔹 Highest Monthly Charge:
-Identified the maximum monthly charge among all customers.
-
-🔹 Lowest Satisfaction Score:
-Identified the minimum customer satisfaction score.
-
-🔹 Age Group with Highest Churn:
-Analyzed which customer age category has the highest churn percentage.
+Sum of total charges
 
 
-🧮 DAX Measures Used
+5. Internet Service Analysis
 
-*Total Customers:
-     Total Customers = COUNT(CustomerChurn[CustomerID])
+Bar chart showing customer count based on:
 
-*Churn Customers:
-     Churn Customers =
-CALCULATE(
-    COUNT(CustomerChurn[CustomerID]),
-    CustomerChurn[Churn] = "Yes"
-)
+Fiber
 
-*Churn Rate %:
-     Churn Rate % =
-DIVIDE([Churn Customers], [Total Customers], 0) * 100
-
-*Average Monthly Charges:
-     Average Monthly Charges =
-AVERAGE(CustomerChurn[MonthlyCharges])
+DSL services
 
 
-📌 Key Insights
+6. Churn Distribution
 
-•Customers with month-to-month contracts showed higher churn rates.
+Pie chart displaying:
 
-•Certain payment methods experienced significantly higher churn.
+Churn = Yes
 
-•Lower satisfaction scores were strongly associated with churned customers.
+Churn = No
 
-•Customers with frequent support calls had a greater tendency to churn.
 
-•Specific age groups showed higher churn percentages compared to others.
+7. Payment Method Analysis
+
+Bar chart analyzing churn by:
+
+Cash
+
+UPI
+
+Credit Card
+
+Debit Card
+
+
+8. Support Call Analysis
+
+Table visual analyzing relationship between:
+
+Support calls
+
+Customer churn
+
+
+9. KPI Cards
+
+Displays:
+
+Total Customers
+
+Average Monthly Charges
 
 
 
-🎯 Project Outcome
+---
 
-The interactive dashboard enables businesses to:
+📈 Key Insights
 
-•Monitor customer churn trends
+Customers with monthly contracts show higher churn rates.
 
-•Understand customer behavior
+Fiber internet users are more common than DSL users.
 
-•Improve customer retention strategies
+Certain payment methods show higher churn occurrence.
 
-•Identify high-risk customer segments
+Higher tenure customers contribute more to total revenue.
 
-•Make data-driven business decisions
+Support calls may indicate customer dissatisfaction leading to churn.
 
+
+
+---
+
+📷 Dashboard Preview
+
+The dashboard contains:
+
+Interactive filters
+
+KPI cards
+
+Bar charts
+
+Pie charts
+
+Line charts
+
+Customer data tables
+
+
+
+---
 
 🚀 How to Use
 
-1)Download the .pbix file.
-
-2)Open it using Microsoft Power BI Desktop.
-
-3)Refresh the dataset if needed.
-
-4)Use slicers to interact with dashboard visuals.
+1. Open the .pbix file in Power BI Desktop.
 
 
+2. Use slicers to filter data dynamically.
 
-📁 Project Structure
 
-  Customer-Churn-Analysis/
+3. Analyze customer churn trends and patterns.
+
+
+4. Generate insights for business decision-making.
+
+
+
+
+---
+
+📌 Future Improvements
+
+Add predictive churn analysis using Machine Learning.
+
+Integrate real-time customer data.
+
+Add advanced DAX measures and forecasting visuals.
+
+
+
+---
+
+👩‍💻 Author
+
+Aishwarya
+
+
+---
+
+📎 GitHub Repository Structure
+
+Customer-Churn-Analysis/
 │
-├── Customer_Churn_Dashboard.pdf
-├── customer_churn_dataset.csv
-├── dashboard.png
-└── README.md
-
-
-📚 Learning Outcomes
-
-Through this project, I learned:
-
-•Data cleaning and transformation in Power BI
-
-•Creating interactive dashboards
-
-•Writing DAX measures
-
-•Performing customer churn analysis
-
-•Building business intelligence reports
-
-
-⭐ Conclusion
-
-This Power BI Customer Churn Analysis Dashboard provides meaningful insights into customer retention and churn behavior.
-The project demonstrates how business intelligence tools can transform raw data into actionable insights for organizations.
-
-
+├── Dataset/
+├── PowerBI Dashboard/
+├── Screenshots/
+├── README.md
+└── Customer_Churn_Analysis.pbix
 
 
 
