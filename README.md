@@ -1,4 +1,7 @@
 Customer Churn Analysis Dashboard – Power BI
+<img width="997" height="552" alt="Screenshot 2026-05-14 202848" src="https://github.com/user-attachments/assets/782e38df-76c1-4aa0-a204-031b70a3e41e" />
+
+
 
 📌 Project Overview
 
